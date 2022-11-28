@@ -1,0 +1,55 @@
+.dashboard__virtual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 39px;
+}
+
+.dashboard__virtual h3 {
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.dashboard__virtual_btn {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.dashboard__virtual_btn button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 16px;
+}
+
+.new-branch {
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  color: #65717C;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.virtual-acc {
+  background: #5444f2;
+  border: 1px solid #5444f2;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 18px;
+}
+.dashboard__wrapper {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+}
+
+.empty {
+  
+}

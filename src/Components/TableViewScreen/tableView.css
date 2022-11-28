@@ -1,0 +1,159 @@
+.tableView {
+  width: 100%;
+}
+.tableView__wrapper {
+  max-width: 441px;
+  height: 817px;
+  padding: 24px 30px 20px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.tableView__activity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-light-color);
+}
+
+.tableView__activity h6 {
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 23px 18px;
+}
+
+.tableView__activity div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.tableView__activity div span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #02ba81;
+}
+
+.activity-list li {
+  color: var(--gray-dark);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+}
+.empty-wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 48px;
+}
+.empty {
+  background: #ffede3;
+  max-width: 441px;
+  height: 45px;
+  padding: 0;
+}
+
+.empty-img {
+  position: absolute;
+  top: 26px;
+  left: 16px;
+}
+.tableView__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+.tableView__account div h6 {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 11px;
+}
+
+.tableView__account div span {
+  color: var(--gray-dark);
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tableView__account button {
+  background: var(--primary-light-color);
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 12px 11px 12px 16px;
+}
+
+.divider {
+  max-width: 409px;
+  border: 0.5px solid #e1e1e1;
+}
+
+.tableView__inflow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.tableView__inflow > div + div {
+  padding-left: 32px;
+}
+.tableView__inflow h5 {
+  color: var(--gray-dark);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.005em;
+  margin-bottom: 8px;
+}
+
+.tableView__inflow span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.linked {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff6eb;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ea8a15;
+  border-radius: 4px;
+  padding: 4px;
+}
+.linked img {
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+
+.tableView__table {
+  width: 96%;
+  border-collapse: collapse;
+}
+
+.tableView__thead {
+  border: 1 solid var(--gray-light);
+}
+
+.tableView__trule {
+  color: var(--gray-dark);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.tableView__tbody td {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: right;
+  border-bottom: 1px solid var(--gray-light);
+}

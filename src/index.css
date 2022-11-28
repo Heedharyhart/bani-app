@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+:root {
+  --max-login-content-width: 426px;
+  --max-login-content-height: 425px;
+  --max-width-content: 1600px;
+  --primary-dark-color: #000;
+  --primary-light-color: #fff;
+  --secondary-color:  #5444F2;
+  --gray-light: #E1E1E1;
+  --gray-dark: #65717C;
+  --bg-main-color: #f5f6fa;
+
+}

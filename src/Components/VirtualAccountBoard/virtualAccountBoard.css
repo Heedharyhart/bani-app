@@ -1,0 +1,189 @@
+.virtualAccount {
+  width: 100%;
+}
+.virtualAccount__wrapper {
+  max-width: 878px;
+  height: 681px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.virtualAccount__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 30px 9px 16px;
+}
+.virtualAccount__content h5 {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.virtualAccount__content div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.purple-wallet {
+  background: var(--primary-light-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.linear-wallet {
+  background: var(--primary-light-color);
+  border: 1px solid var(--gray-light);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.divider {
+  max-width: 100%;
+  height: 0px;
+  border: 0.5px solid var(--gray-light);
+  transform: rotate(0.13deg);
+  margin-bottom: 15px;
+}
+
+.virtualAccount__branch {
+  display: flex;
+  gap: 222px;
+  padding: 10px 30px 18px 43px;
+}
+
+.virtualAccount__branch span {
+  background: #f4f3ff;
+  border-radius: 100px;
+  color: var(--secondary-color);
+  display: inline-block;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 8px 11px;
+}
+
+.virtualAccount__branch div {
+  position: relative;
+}
+.virtualAccount__branch input {
+  width: 434px;
+  height: 44px;
+  background: #ffffff;
+  border: 0.5px solid #e1e1e1;
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: var(--gray-light);
+  padding: 12px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.virtualAccount__branch button {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.virtualAccount__manage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px 30px 26px 20px;
+}
+.virtualAccount__manage h5 {
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.virtualAccount__manage div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.virtualAccount__manage div span {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--secondary-color);
+}
+.virtualAccount__table {
+  width: 96%;
+  border-collapse: collapse;
+}
+
+.virtualAccount__thead {
+  border: 1 solid var(--gray-light);
+}
+
+.virtualAccount__trule {
+  color: var(--gray-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.virtualAccount__tbody td {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: right;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.format {
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  background-color: #ebf5ff;
+  color: #1a72f7;
+  border-radius: 4px;
+}
+
+.format img,
+.format2 img,
+.format3 img {
+  display: inline-block;
+  padding: 4px 6px 4px 8px;
+}
+
+.format2 {
+  display: flex;
+  align-items: center;
+  background: #fff6eb;
+  border-radius: 4px;
+  color: #ea8a15;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.format3 {
+  display: flex;
+  align-items: center;
+  background: #f2ebff;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 140%;
+}

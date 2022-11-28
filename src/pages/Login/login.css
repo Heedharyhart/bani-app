@@ -1,0 +1,115 @@
+@import "../../index.css";
+.login__wrapper {
+  background-color: #f5f6fa;
+}
+
+.login__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.login__details {
+  background-color: var(--primary-light-color);
+  width: var(--max-login-content-width);
+  height: var(--max-login-content-height);
+  margin: 80px auto;
+  padding: 30px;
+  text-align: left;
+  border: 5px solid var(--primary-light-color);
+}
+
+.login__details_heading {
+  color: var(--primary-dark-color);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 34px;
+}
+
+.login__details_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 4px;
+  margin-bottom: 32px;
+}
+
+.login__details_text span {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.inputGroup {
+  padding-bottom: 20px;
+  position: relative;
+}
+.password-wrapper {
+  position: relative;
+}
+label {
+  color: var(--gray-dark);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.label-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label-password span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--secondary-color);
+}
+
+input[type="password"],
+input[type="email"] {
+  border: 0.5px solid var(--gray-light);
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 12px;
+  outline: 0;
+  padding: 0 15px;
+  width: 100%;
+}
+input::placeholder {
+  color: var(--gray-light);
+  padding: 13px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+input:focus {
+  border-color: Black;
+  font-size: to-rem(13);
+}
+.password_btn {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-login {
+  background-color: var(--secondary-color);
+  border: 0;
+  border-radius: 3px;
+  color: var(--primary-light-color);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  margin-top: 32px;
+  width: 100%;
+}

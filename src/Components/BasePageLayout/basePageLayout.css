@@ -1,0 +1,22 @@
+.basePageLayout__wrapper {
+  display: flex;
+  max-width: 100vw;
+}
+
+
+.basePageLayout__mainContent {  
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.basePageLayout__layout{
+  display: flex;
+}
+
+.basePageLayout__children {
+  background-color: #eff3f6;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 30px 20px 30px 40px;
+}

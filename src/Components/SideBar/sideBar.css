@@ -1,0 +1,72 @@
+.sideBar {
+  max-width: 200px;
+  height: 912px;
+  background: var(--primary-light-color);
+}
+
+.sideBar__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.sideBar__wrapper-welcome div {
+  color: var(--gray-dark);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sideBar__wrapper-welcome div h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sideBar__wrapper-welcome > div + div {
+  padding-top: 20px;
+}
+
+.sideBar__wrapper-business,
+.sideBar__wrapper-payment {
+  margin-top: 33px;
+}
+.sideBar__wrapper-business h5,
+.sideBar__wrapper-payment h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 22px;
+}
+
+.sideBar__wrapper-business div,
+.sideBar__wrapper-payment div,
+.sideBar__wrapper-footer div {
+  color: var(--gray-dark);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sideBar__wrapper-business div h6,
+.sideBar__wrapper-payment div h6,
+.sideBar__wrapper-footer div h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sideBar__wrapper-business > div + div,
+.sideBar__wrapper-payment > div + div,
+.sideBar__wrapper-footer > div + div {
+  padding-top: 20px;
+}
+
+.sideBar__wrapper-payment {
+  margin-bottom: 310px;
+}
+.virtual__wrap {
+  color: #02BA81;
+  font-weight: 300;
+  font-size: 12px;
+}
