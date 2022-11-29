@@ -14,7 +14,7 @@ const Datas = [
     id: 1,
     logo : Polaris,
     name: "Polaris Bank Limited",
-    account_number: "08023221144",
+    account_number: "0788023221144",
     copy_icon: Copy,
     format_icon: Format,
     location: "Dodo - Ikeja",
@@ -26,11 +26,11 @@ const Datas = [
   { id: 2,
     logo : GTCO,
     name: "Guranty Trust Holding",
-    account_number: "08023221144",
+    account_number: "080783221144",
     copy_icon: Copy,
     format_icon: Format2,
     location: "Dodo - Lekki II",
-    inflow: "NGN 100,000.00",
+    inflow: "NGN 500,000.00",
     more_icon: More
 
   },
@@ -39,11 +39,11 @@ const Datas = [
     id: 3,
     logo : Providus,
     name: "Providus Bank PLC",
-    account_number: "08023221144",
+    account_number: "080893221144",
     copy_icon: Copy,
     format_icon: Format2,
     location: "Dodo - Lekki II",
-    inflow: "NGN 100,000.00",
+    inflow: "NGN 150,000.00",
     more_icon: More
 
   },
@@ -52,11 +52,11 @@ const Datas = [
     id: 4,
     logo : First,
     name: "First Bank of Nigeria",
-    account_number: "08023221144",
+    account_number: "0805653221144",
     copy_icon: Copy,
     format_icon: Format3,
     location: "Dodo - Abuja",
-    inflow: "NGN 100,000.00",
+    inflow: "NGN 300,000.00",
     more_icon: More
 
   }
