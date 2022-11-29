@@ -4,8 +4,12 @@ import LinearIcon from "../../Icons/linear-icon.svg";
 import SearchIcon from "../../Icons/search-icon.svg";
 import PurpleSetting from "../../Icons/purple-setting.svg";
 import "./virtualAccountBoard.css";
-//import Datas from "../../pages/Dashboard/data";
-const VirtualAccountBoard = ({accountDetails, handleChangeData, handleDisplayChange}) => {
+const VirtualAccountBoard = ({
+  accountDetails,
+  handleChangeData,
+  handleDisplayChange,
+}) => {
+
 
   return (
     <div className="virtualAccount">
@@ -54,9 +58,12 @@ const VirtualAccountBoard = ({accountDetails, handleChangeData, handleDisplayCha
               const first = index === 0;
               const second = index === 3;
               return (
-                <tr key={index}>
-                  <td >
-                    <img onClick={handleChangeData} alt="logo" src={data.logo} />
+                <tr key={index} onClick={() => handleChangeData(index)}>
+                  <td>
+                    <img
+                      alt="logo"
+                      src={data.logo}
+                    />
                   </td>
                   <td>{data.name}</td>
                   <td>{data.account_number}</td>

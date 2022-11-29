@@ -12,14 +12,13 @@ const Dashboard = () => {
   const [index, setIndex] = useState(0);
   const [displayMore, setDisplayMore] = useState(false);
 
-  const handleClick = () => {
-    setIndex(index + 1);
+  const handleClick = (e) => {
+    setIndex(e);
   };
+
   const handleDisplay = () => {
     setDisplayMore(!displayMore);
   };
-
-  let dataList = Datas[index];
 
   return (
     <BasePageLayout>
@@ -49,6 +48,7 @@ const Dashboard = () => {
           handleChangeData={handleClick}
           handleDisplayChange={handleDisplay}
           displayData={Datas}
+          index={index}
         />
       </div>
     </BasePageLayout>
