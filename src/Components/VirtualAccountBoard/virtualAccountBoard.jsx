@@ -7,7 +7,6 @@ import "./virtualAccountBoard.css";
 const VirtualAccountBoard = ({
   accountDetails,
   handleChangeData,
-  handleDisplayChange,
 }) => {
 
 

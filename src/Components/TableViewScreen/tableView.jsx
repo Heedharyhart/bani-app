@@ -4,11 +4,12 @@ import "./tableView.css";
 import Format2 from "../../Icons/format-orange.svg";
 import AccountDatas from "./accountData";
 
-const TableView = ({ displayData, handleDisplayChange, index }) => {
-  const show = displayData.filter((e, i) => i === index);
+const TableView = ({ displayData, index }) => {
+  const toggleDisplay = displayData.filter((e, i) => i === index);
+  
   return (
     <div className="tableView">
-      {show.map((data, index) => (
+      {toggleDisplay.map((data, index) => (
         <div key={index} className="tableView__wrapper">
           <div className="tableView__activity">
             <h6>

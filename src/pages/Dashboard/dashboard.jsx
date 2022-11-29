@@ -10,15 +10,12 @@ import Datas from "./data";
 
 const Dashboard = () => {
   const [index, setIndex] = useState(0);
-  const [displayMore, setDisplayMore] = useState(false);
 
   const handleClick = (e) => {
     setIndex(e);
   };
 
-  const handleDisplay = () => {
-    setDisplayMore(!displayMore);
-  };
+  
 
   return (
     <BasePageLayout>
@@ -41,12 +38,10 @@ const Dashboard = () => {
           <VirtualAccountBoard
             handleChangeData={handleClick}
             accountDetails={Datas}
-            handleDisplayChange={handleDisplay}
           />
         </div>
         <TableView
           handleChangeData={handleClick}
-          handleDisplayChange={handleDisplay}
           displayData={Datas}
           index={index}
         />

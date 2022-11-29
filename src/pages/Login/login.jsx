@@ -10,13 +10,11 @@ const Login = () => {
     email: "",
     phone_number: "",
   });
-  // const handleInputChange = (e) => {
-  // };
+ 
   let navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     setData({ ...data, [e.target.name]: e.target.value });
-    //const isLoggedIn = localStorage.getItem(data);
     localStorage.getItem(data);
     setIsLogin(true);
     if (!isLogin) {
